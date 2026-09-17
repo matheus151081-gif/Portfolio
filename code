@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Endividamento — Educação Financeira e Crédito Consciente</title>
+<meta name="description" content="Um guia visual sobre endividamento: o que é, o que leva ao descontrole financeiro, seus impactos e como retomar o controle.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   ICON SPRITE (hidden, referenced via <use>)
+   ============================================================ */
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     ICON SPRITE
+     ============================================================ -->
+<svg style="display:none" aria-hidden="true">
+  <defs>
+    <symbol id="ic-clipboard" viewBox="0 0 24 24"><path d="M9 4h6a1 1 0 0 1 1 1v1H8V5a1 1 0 0 1 1-1Z"/><rect x="5" y="5" width="14" height="16" rx="2"/><path d="m8.5 13 2 2 4.5-4.5"/></symbol>
+    <symbol id="ic-scale" viewBox="0 0 24 24"><path d="M12 3v18M7 7l-4 8a4 4 0 0 0 8 0l-4-8Zm10 0-4 8a4 4 0 0 0 8 0l-4-8ZM4 7h16M9 21h6"/></symbol>
+    <symbol id="ic-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2.2"/><path d="M3 10.5h18M6.5 15h4"/></symbol>
+    <symbol id="ic-layers" viewBox="0 0 24 24"><rect x="5" y="4" width="11" height="6.5" rx="1.4"/><rect x="7.5" y="10.2" width="11" height="6.5" rx="1.4"/><rect x="10" y="16.4" width="11" height="6.5" rx="1.4"/></symbol>
+    <symbol id="ic-percent" viewBox="0 0 24 24"><circle cx="7.5" cy="7.5" r="2.6"/><circle cx="16.5" cy="16.5" r="2.6"/><path d="M18 6 6 18"/></symbol>
+    <symbol id="ic-alert" viewBox="0 0 24 24"><path d="M12 3.5 2.5 20h19L12 3.5Z"/><path d="M12 10v4.2"/><circle cx="12" cy="17.2" r="0.9" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-cart" viewBox="0 0 24 24"><path d="M3 4h2.4l1.1 3M6.5 7h13.7l-1.9 8H8.6L6.5 7Zm2.1 11a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6Zm8.6 0a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6Z"/></symbol>
+    <symbol id="ic-wallet" viewBox="0 0 24 24"><path d="M4 7a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v2"/><rect x="3" y="7" width="18" height="13" rx="2.2"/><circle cx="16.2" cy="13.6" r="1.3" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-trend-down" viewBox="0 0 24 24"><path d="M3.5 7.5 10 14l4-4 6.5 6.5"/><path d="M20.5 10.5v6h-6"/></symbol>
+    <symbol id="ic-trend-up" viewBox="0 0 24 24"><path d="M3.5 16.5 10 10l4 4 6.5-6.5"/><path d="M20.5 13.5v-6h-6"/></symbol>
+    <symbol id="ic-hourglass" viewBox="0 0 24 24"><path d="M6 3h12M6 21h12M7 3c0 5 5 6.5 5 9s-5 4-5 9M17 3c0 5-5 6.5-5 9s5 4 5 9"/></symbol>
+    <symbol id="ic-gap" viewBox="0 0 24 24"><path d="M9 3 5 7v10l4 4M15 3l4 4v10l-4 4"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-octagon" viewBox="0 0 24 24"><path d="M8 3h8l5 5v8l-5 5H8l-5-5V8l5-5Z"/><path d="M12 8v5"/><circle cx="12" cy="16" r="0.9" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-list" viewBox="0 0 24 24"><path d="M9 5h11M9 12h11M9 19h11"/><circle cx="4.2" cy="5" r="1.1" fill="currentColor" stroke="none"/><circle cx="4.2" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="4.2" cy="19" r="1.1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-coins" viewBox="0 0 24 24"><ellipse cx="9" cy="7" rx="6" ry="3"/><path d="M3 7v5c0 1.7 2.7 3 6 3s6-1.3 6-3V7"/><path d="M3 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><ellipse cx="17" cy="15" rx="4" ry="2" transform="rotate(0 0 0)"/></symbol>
+    <symbol id="ic-map" viewBox="0 0 24 24"><path d="M4 6.5 9 4l6 2.5 5-2.5v14l-5 2.5-6-2.5-5 2.5V6.5Z"/><path d="M9 4v14M15 6.5V20"/></symbol>
+    <symbol id="ic-shield" viewBox="0 0 24 24"><path d="M12 3 5 5.5V11c0 5 3 8.2 7 10 4-1.8 7-5 7-10V5.5L12 3Z"/><path d="m9 12 2.2 2.2L15.5 9.5"/></symbol>
+    <symbol id="ic-arrow-down" viewBox="0 0 24 24"><path d="M12 4v15M6 13l6 6 6-6"/></symbol>
+    <symbol id="ic-bell" viewBox="0 0 24 24"><path d="M12 3.5a5 5 0 0 0-5 5v3.2c0 1-.4 2-1.1 2.7L5 15.5h14l-.9-1.1a3.9 3.9 0 0 1-1.1-2.7V8.5a5 5 0 0 0-5-5Z"/><path d="M9.8 18.5a2.3 2.3 0 0 0 4.4 0"/></symbol>
+    <symbol id="ic-calendar" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15.5" rx="2"/><path d="M3.5 9.5h17M8 3v4M16 3v4"/><rect x="7" y="12.3" width="3.6" height="3.2" rx="0.6" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="ic-bar" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+    <symbol id="ic-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="ic-close" viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></symbol>
+    <symbol id="ic-arrow-up" viewBox="0 0 24 24"><path d="M12 20V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="ic-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<div class="scroll-indicator" id="scrollIndicator" aria-hidden="true"><span id="scrollIndicatorFill"></span></div>
+
+<header class="nav" id="siteNav">
+  <div class="nav__inner">
+    <a href="#topo" class="nav__brand">
+      <span class="nav__brand-mark" aria-hidden="true"></span>
+      <span>Endividamento</span>
+    </a>
+    <nav class="nav__links" id="navLinks" aria-label="Navegação principal">
+      <a href="#problema">O problema</a>
+      <a href="#impactos">Impactos</a>
+      <a href="#como-sair">Como sair</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#simulador">Simulador</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+      <svg width="24" height="24"><use href="#ic-menu"></use></svg>
+    </button>
+  </div>
+</header>
+
+<main id="conteudo">
+
+  <!-- ============================================================
+       HERO
+       ============================================================ -->
+  <section class="hero" id="topo">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__text reveal">
+        <p class="hero__kicker">Educação financeira · Crédito consciente</p>
+        <h1 class="hero__title">Endividamento</h1>
+        <p class="hero__subtitle">Quando o crédito deixa de ser ferramenta e vira problema.</p>
+        <p class="hero__lead">Entenda o que leva ao descontrole financeiro, quais são os impactos das dívidas e quais atitudes podem ajudar na retomada do controle.</p>
+        <div class="hero__actions">
+          <a href="#o-que-e" class="btn btn--primary">Entender o problema</a>
+          <a href="#como-sair" class="btn btn--ghost">Como sair do endividamento</a>
+        </div>
+      </div>
+      <div class="hero__visual reveal reveal--delay" aria-hidden="true">
+        <div class="float-card float-card--wallet">
+          <svg width="22" height="22"><use href="#ic-wallet"></use></svg>
+          <div>
+            <span class="float-card__label">Saldo disponível</span>
+            <span class="float-card__value">R$ 1.240,00</span>
+          </div>
+        </div>
+        <div class="float-card float-card--bill">
+          <svg width="20" height="20"><use href="#ic-bell"></use></svg>
+          <div>
+            <span class="float-card__label">Fatura do cartão</span>
+            <span class="float-card__value float-card__value--muted">Vence em 5 dias</span>
+          </div>
+        </div>
+        <div class="float-card float-card--chart">
+          <div class="mini-chart">
+            <span style="--h:38%"></span><span style="--h:52%"></span><span style="--h:47%"></span><span style="--h:64%"></span><span style="--h:58%"></span><span style="--h:73%"></span>
+          </div>
+          <span class="float-card__label float-card__label--tight">Comprometimento mensal</span>
+        </div>
+        <div class="float-card float-card--calendar">
+          <svg width="20" height="20"><use href="#ic-calendar"></use></svg>
+          <div>
+            <span class="float-card__label">Vencimento</span>
+            <span class="float-card__value float-card__value--muted">Dia 10</span>
+          </div>
+        </div>
+        <div class="hero__ring" aria-hidden="true"></div>
+      </div>
+    </div>
+    <a href="#o-que-e" class="hero__scroll-cue" aria-label="Rolar para o conteúdo">
+      <svg width="18" height="18"><use href="#ic-arrow-down"></use></svg>
+    </a>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 01 — O QUE É ENDIVIDAMENTO
+       ============================================================ -->
+  <section class="section" id="o-que-e">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>O que é endividamento?</h2>
+        <p class="section__intro">Endividamento acontece quando uma pessoa possui compromissos financeiros que precisam ser pagos no presente ou no futuro. Ter uma dívida não é, em si, uma emergência — o problema surge quando os compromissos passam a superar a capacidade de pagamento.</p>
+      </div>
+
+      <div class="compare-grid reveal">
+        <div class="compare-card compare-card--purple">
+          <span class="compare-card__eyebrow">Endividamento</span>
+          <p>A pessoa possui dívidas ou compromissos financeiros — parcelas, empréstimos ou financiamentos ainda em andamento.</p>
+        </div>
+        <div class="compare-card__divider">≠</div>
+        <div class="compare-card compare-card--green">
+          <span class="compare-card__eyebrow">Inadimplência</span>
+          <p>A pessoa não consegue pagar uma obrigação dentro do prazo combinado, gerando atraso e possíveis encargos adicionais.</p>
+        </div>
+      </div>
+
+      <div class="timeline-h reveal">
+        <div class="timeline-h__step">
+          <span class="timeline-h__dot"></span>
+          <span class="timeline-h__label">Compra</span>
+        </div>
+        <div class="timeline-h__line"></div>
+        <div class="timeline-h__step">
+          <span class="timeline-h__dot"></span>
+          <span class="timeline-h__label">Parcela</span>
+        </div>
+        <div class="timeline-h__line"></div>
+        <div class="timeline-h__step">
+          <span class="timeline-h__dot"></span>
+          <span class="timeline-h__label">Compromisso futuro</span>
+        </div>
+        <div class="timeline-h__line"></div>
+        <div class="timeline-h__step">
+          <span class="timeline-h__dot"></span>
+          <span class="timeline-h__label">Pagamento</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 02 — O QUE PODE LEVAR AO DESCONTROLE
+       ============================================================ -->
+  <section class="section section--tint" id="problema">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Como uma dívida começa a sair do controle?</h2>
+        <p class="section__intro">Raramente existe um único motivo. Em geral, é a combinação de alguns fatores, ao longo do tempo, que reduz a margem de manobra do orçamento.</p>
+      </div>
+
+      <div class="factor-grid">
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-clipboard"></use></svg></span>
+          <h3>Falta de planejamento</h3>
+          <p>Sem uma visão clara de receitas e despesas, fica difícil saber quanto realmente sobra a cada mês.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-scale"></use></svg></span>
+          <h3>Gastos acima da renda</h3>
+          <p>Quando as despesas ultrapassam o que entra, o equilíbrio passa a depender de crédito ou de reservas.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-card"></use></svg></span>
+          <h3>Uso frequente do crédito</h3>
+          <p>Recorrer ao crédito com regularidade pode mascarar, por um tempo, um desequilíbrio já existente.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-layers"></use></svg></span>
+          <h3>Acúmulo de parcelas</h3>
+          <p>Cada nova compra parcelada soma-se às anteriores, ocupando um espaço crescente do orçamento futuro.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-percent"></use></svg></span>
+          <h3>Juros</h3>
+          <p>Encargos sobre o valor em aberto podem fazer uma dívida crescer mesmo sem novos gastos.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-alert"></use></svg></span>
+          <h3>Imprevistos financeiros</h3>
+          <p>Despesas não planejadas — como uma emergência médica — podem desorganizar um orçamento já apertado.</p>
+        </article>
+        <article class="factor-card reveal">
+          <span class="factor-card__icon"><svg width="22" height="22"><use href="#ic-cart"></use></svg></span>
+          <h3>Compras por impulso</h3>
+          <p>Decisões tomadas sem planejamento tendem a se acumular e passar despercebidas no curto prazo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 03 — O EFEITO DOMINÓ
+       ============================================================ -->
+  <section class="section section--dark" id="efeito-dominó">
+    <div class="container">
+      <div class="section__head section__head--onDark reveal">
+        <h2>O efeito dominó do endividamento</h2>
+        <p class="section__intro section__intro--onDark">Uma decisão financeira isolada pode parecer pequena. Quando várias obrigações se acumulam, porém, o orçamento pode perder espaço para novas necessidades.</p>
+      </div>
+
+      <div class="domino" id="dominoChain">
+        <div class="domino__line" aria-hidden="true"><span id="dominoLineFill"></span></div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">1</span>
+          <span class="domino__text">Gasto excessivo</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">2</span>
+          <span class="domino__text">Menos dinheiro disponível</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">3</span>
+          <span class="domino__text">Uso de crédito</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">4</span>
+          <span class="domino__text">Mais parcelas</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">5</span>
+          <span class="domino__text">Juros</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">6</span>
+          <span class="domino__text">Dívida maior</span>
+        </div>
+        <div class="domino__step" data-domino>
+          <span class="domino__index">7</span>
+          <span class="domino__text">Menor capacidade de pagamento</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 04 — IMPACTOS
+       ============================================================ -->
+  <section class="section" id="impactos">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Quando a dívida começa a pesar</h2>
+        <p class="section__intro">Os efeitos do endividamento aparecem aos poucos — geralmente no espaço que sobra (ou deixa de sobrar) no orçamento mensal.</p>
+      </div>
+
+      <div class="impact-grid">
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-wallet"></use></svg></span>
+          <h3>Orçamento comprometido</h3>
+          <p>Parte da renda fica destinada ao pagamento de dívidas.</p>
+        </article>
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-trend-down"></use></svg></span>
+          <h3>Menor capacidade de consumo</h3>
+          <p>O dinheiro disponível para outras necessidades diminui.</p>
+        </article>
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-hourglass"></use></svg></span>
+          <h3>Compromissos futuros</h3>
+          <p>Parcelas podem comprometer meses ou até anos do orçamento.</p>
+        </article>
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-trend-up"></use></svg></span>
+          <h3>Crescimento da dívida</h3>
+          <p>Juros e encargos podem aumentar o valor devido.</p>
+        </article>
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-gap"></use></svg></span>
+          <h3>Menos margem para imprevistos</h3>
+          <p>Uma renda já comprometida deixa menos espaço para emergências.</p>
+        </article>
+        <article class="impact-card reveal">
+          <span class="impact-card__icon"><svg width="26" height="26"><use href="#ic-octagon"></use></svg></span>
+          <h3>Risco de inadimplência</h3>
+          <p>Quando o pagamento não acontece no prazo, a situação pode se agravar.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 05 — CRÉDITO NÃO É DINHEIRO EXTRA
+       ============================================================ -->
+  <section class="section section--tint" id="credito">
+    <div class="container">
+      <div class="highlight reveal">
+        <h2 class="highlight__quote">Crédito aumenta seu poder de compra agora, mas também cria um compromisso para depois.</h2>
+      </div>
+
+      <div class="flow-compare reveal">
+        <div class="flow-compare__col">
+          <span class="flow-compare__tag flow-compare__tag--green">Dinheiro disponível</span>
+          <div class="flow-compare__chain">
+            <span>Renda</span>
+            <svg width="16" height="16"><use href="#ic-arrow-down"></use></svg>
+            <span>Gastos</span>
+            <svg width="16" height="16"><use href="#ic-arrow-down"></use></svg>
+            <span class="flow-compare__result flow-compare__result--green">Valor disponível</span>
+          </div>
+        </div>
+        <div class="flow-compare__col">
+          <span class="flow-compare__tag flow-compare__tag--purple">Limite de crédito</span>
+          <div class="flow-compare__chain">
+            <span>Limite do cartão / empréstimo</span>
+            <svg width="16" height="16"><use href="#ic-arrow-down"></use></svg>
+            <span class="flow-compare__result flow-compare__result--purple">Compromisso futuro</span>
+          </div>
+        </div>
+      </div>
+      <p class="flow-compare__note reveal">Limite de cartão, empréstimo e financiamento não significam renda adicional — são valores que, ao serem usados, precisam ser devolvidos, geralmente com encargos.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 06 — COMO SAIR DO ENDIVIDAMENTO
+       ============================================================ -->
+  <section class="section" id="como-sair">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <h2>Retomar o controle começa com clareza.</h2>
+      </div>
+
+      <ol class="steps">
+        <li class="steps__item reveal">
+          <span class="steps__index">01</span>
+          <div>
+            <h3>Liste suas dívidas</h3>
+            <p>Saiba exatamente quanto deve, para quem e quais são os prazos.</p>
+          </div>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__index">02</span>
+          <div>
+            <h3>Organize sua renda</h3>
+            <p>Entenda quanto dinheiro realmente entra todos os meses.</p>
+          </div>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__index">03</span>
+          <div>
+            <h3>Mapeie seus gastos</h3>
+            <p>Separe despesas essenciais, variáveis e gastos que podem ser reduzidos.</p>
+          </div>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__index">04</span>
+          <div>
+            <h3>Priorize as dívidas</h3>
+            <p>Analise prazos, juros e condições de pagamento de cada compromisso.</p>
+          </div>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__index">05</span>
+          <div>
+            <h3>Evite novas dívidas</h3>
+            <p>Enquanto reorganiza sua vida financeira, tenha cuidado para não aumentar o comprometimento da renda.</p>
+          </div>
+        </li>
+        <li class="steps__item reveal">
+          <span class="steps__index">06</span>
+          <div>
+            <h3>Crie um plano</h3>
+            <p>Defina prioridades e acompanhe sua evolução ao longo do tempo.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 07 — CHECKLIST INTERATIVO
+       ============================================================ -->
+  <section class="section section--tint" id="checklist">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <h2>Meu nível de organização financeira</h2>
+        <p class="section__intro">Marque os itens que já fazem parte da sua rotina. É uma ferramenta educativa de autoavaliação — não um diagnóstico financeiro.</p>
+      </div>
+
+      <div class="checklist-panel reveal">
+        <div class="checklist-progress">
+          <div class="checklist-progress__bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="checklistProgressbar">
+            <div class="checklist-progress__fill" id="checklistFill"></div>
+          </div>
+          <div class="checklist-progress__meta">
+            <span id="checklistLabel">Vamos começar</span>
+            <span id="checklistPercent">0%</span>
+          </div>
+        </div>
+
+        <ul class="checklist" id="checklistItems">
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-1" class="checklist__input">
+            <label for="chk-1">Sei quanto ganho por mês</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-2" class="checklist__input">
+            <label for="chk-2">Sei quanto gasto por mês</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-3" class="checklist__input">
+            <label for="chk-3">Conheço minhas parcelas</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-4" class="checklist__input">
+            <label for="chk-4">Sei quanto devo</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-5" class="checklist__input">
+            <label for="chk-5">Sei quais dívidas têm juros maiores</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-6" class="checklist__input">
+            <label for="chk-6">Tenho controle dos meus vencimentos</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-7" class="checklist__input">
+            <label for="chk-7">Evito assumir parcelas sem planejamento</label>
+          </li>
+          <li class="checklist__item">
+            <input type="checkbox" id="chk-8" class="checklist__input">
+            <label for="chk-8">Tenho espaço no orçamento para imprevistos</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 08 — SIMULADOR VISUAL
+       ============================================================ -->
+  <section class="section" id="simulador">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <h2>Veja como as parcelas ocupam seu orçamento</h2>
+        <p class="section__intro">Preencha os valores abaixo. Os cálculos acontecem no seu navegador — nenhum dado é enviado ou armazenado.</p>
+      </div>
+
+      <div class="simulator reveal">
+        <div class="simulator__inputs">
+          <div class="field">
+            <label for="simRenda">Renda mensal</label>
+            <div class="field__input">
+              <span>R$</span>
+              <input type="number" id="simRenda" inputmode="decimal" min="0" step="0.01" placeholder="0,00">
+            </div>
+          </div>
+          <div class="field">
+            <label for="simDespesas">Despesas essenciais</label>
+            <div class="field__input">
+              <span>R$</span>
+              <input type="number" id="simDespesas" inputmode="decimal" min="0" step="0.01" placeholder="0,00">
+            </div>
+          </div>
+          <div class="field">
+            <label for="simParcelas">Parcelas / dívidas</label>
+            <div class="field__input">
+              <span>R$</span>
+              <input type="number" id="simParcelas" inputmode="decimal" min="0" step="0.01" placeholder="0,00">
+            </div>
+          </div>
+        </div>
+
+        <div class="simulator__result">
+          <div class="simulator__numbers">
+            <div>
+              <span class="simulator__number-label">Dinheiro restante</span>
+              <span class="simulator__number" id="simRestante">R$ 0,00</span>
+            </div>
+            <div>
+              <span class="simulator__number-label">Renda comprometida com parcelas</span>
+              <span class="simulator__number" id="simPercentual">0%</span>
+            </div>
+          </div>
+          <div class="simulator__bar">
+            <div class="simulator__bar-fill" id="simBarFill"></div>
+          </div>
+          <p class="simulator__note">Quanto maior o comprometimento da renda, menor tende a ser o espaço disponível para outras despesas e imprevistos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 09 — MITOS E VERDADES
+       ============================================================ -->
+  <section class="section section--tint" id="mitos">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>Mitos e verdades sobre o crédito</h2>
+        <p class="section__intro">Toque em cada card para ver a explicação.</p>
+      </div>
+
+      <div class="myth-grid">
+        <button class="myth-card reveal" data-myth>
+          <span class="myth-card__front">
+            <span class="myth-card__quote">"Parcelar sempre significa pagar mais."</span>
+            <span class="myth-card__cta">Ver explicação</span>
+          </span>
+          <span class="myth-card__back">Depende das condições da compra e da existência de juros no parcelamento.</span>
+        </button>
+        <button class="myth-card reveal" data-myth>
+          <span class="myth-card__front">
+            <span class="myth-card__quote">"Ter limite alto significa ter mais dinheiro."</span>
+            <span class="myth-card__cta">Ver explicação</span>
+          </span>
+          <span class="myth-card__back">Não. Limite de crédito não é renda — é um valor que, se usado, vira compromisso futuro.</span>
+        </button>
+        <button class="myth-card reveal" data-myth>
+          <span class="myth-card__front">
+            <span class="myth-card__quote">"Uma dívida pode crescer com o tempo."</span>
+            <span class="myth-card__cta">Ver explicação</span>
+          </span>
+          <span class="myth-card__back">Sim, dependendo dos juros e encargos aplicáveis ao contrato.</span>
+        </button>
+        <button class="myth-card reveal" data-myth>
+          <span class="myth-card__front">
+            <span class="myth-card__quote">"Planejamento ajuda a evitar o endividamento."</span>
+            <span class="myth-card__cta">Ver explicação</span>
+          </span>
+          <span class="myth-card__back">Sim. Conhecer receitas, despesas e compromissos ajuda na tomada de decisões.</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SEÇÃO 10 — RECAPITULAÇÃO
+       ============================================================ -->
+  <section class="section" id="recapitulacao">
+    <div class="container">
+      <div class="section__head reveal">
+        <h2>5 ideias para levar</h2>
+      </div>
+      <div class="recap-grid">
+        <div class="recap-card reveal"><span class="recap-card__index">01</span><p>Conheça sua renda.</p></div>
+        <div class="recap-card reveal"><span class="recap-card__index">02</span><p>Controle seus gastos.</p></div>
+        <div class="recap-card reveal"><span class="recap-card__index">03</span><p>Entenda o crédito antes de usá-lo.</p></div>
+        <div class="recap-card reveal"><span class="recap-card__index">04</span><p>Observe juros e parcelas.</p></div>
+        <div class="recap-card reveal"><span class="recap-card__index">05</span><p>Planeje antes de assumir novos compromissos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA FINAL
+       ============================================================ -->
+  <section class="final-cta" id="final">
+    <div class="final-cta__glow" aria-hidden="true"></div>
+    <div class="container reveal">
+      <h2>Controle financeiro começa com informação.</h2>
+      <p>Entender como o crédito funciona e conhecer o próprio orçamento são passos importantes para tomar decisões financeiras mais conscientes.</p>
+      <a href="#topo" class="btn btn--primary btn--onDark">Voltar ao início</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>Projeto de Educação Financeira</p>
+    <p>Tema: Endividamento</p>
+    <p>Crédito Consciente</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+  <svg width="20" height="20"><use href="#ic-arrow-up"></use></svg>
+</button>
+
+<style>
+/* ============================================================
+   TOKENS
+   ============================================================ */
+:root{
+  --purple-900:#2E1065;
+  --purple-800:#3E1A78;
+  --purple-700:#5B21B6;
+  --purple-600:#6D28D9;
+  --purple-500:#7C3AED;
+  --purple-100:#EDE6FB;
+  --purple-50:#F6F2FD;
+  --green-600:#059669;
+  --green-500:#10B981;
+  --green-100:#DCFCE9;
+  --off-white:#FAF9F6;
+  --white:#FFFFFF;
+  --graphite:#1F2328;
+  --graphite-soft:#3A3F47;
+  --gray-500:#6B7280;
+  --gray-300:#D8D6E0;
+  --gray-200:#E7E4EF;
+
+  --bg:var(--off-white);
+  --bg-alt:var(--purple-50);
+  --surface:var(--white);
+  --text:var(--graphite);
+  --text-soft:var(--gray-500);
+  --border:var(--gray-200);
+  --shadow-color:220 35% 3%;
+
+  --font-display:'Manrope', 'Segoe UI', system-ui, sans-serif;
+  --font-body:'Inter', 'Segoe UI', system-ui, sans-serif;
+
+  --container:1200px;
+  --radius-sm:10px;
+  --radius-md:16px;
+  --radius-lg:24px;
+  --ease:cubic-bezier(.22,.68,0,1.01);
+}
+
+:root:not([data-theme="light"]){
+  @media (prefers-color-scheme: dark){
+    --bg:#14101F;
+    --bg-alt:#1B1530;
+    --surface:#1E1830;
+    --text:#F3F1F8;
+    --text-soft:#B9B2C9;
+    --border:#332A4D;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14101F;
+  --bg-alt:#1B1530;
+  --surface:#1E1830;
+  --text:#F3F1F8;
+  --text-soft:#B9B2C9;
+  --border:#332A4D;
+}
+
+*,*::before,*::after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
+}
+
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:var(--font-body);
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+h1,h2,h3{
+  font-family:var(--font-display);
+  color:var(--text);
+  margin:0;
+  letter-spacing:-0.01em;
+}
+
+p{margin:0;}
+
+a{color:inherit;}
+
+svg{display:block; fill:none; stroke:currentColor; stroke-width:1.6; stroke-linecap:round; stroke-linejoin:round;}
+
+.container{
+  max-width:var(--container);
+  margin:0 auto;
+  padding:0 clamp(1.25rem, 4vw, 2.5rem);
+}
+.container--narrow{max-width:760px;}
+
+.skip-link{
+  position:absolute; left:-9999px; top:0;
+  background:var(--purple-700); color:#fff; padding:0.75rem 1.25rem;
+  border-radius:0 0 8px 0; z-index:200; font-weight:600;
+}
+.skip-link:focus{left:0;}
+
+:focus-visible{outline:2.5px solid var(--green-500); outline-offset:3px; border-radius:4px;}
+
+/* ============================================================
+   SCROLL PROGRESS
+   ============================================================ */
+.scroll-indicator{
+  position:fixed; top:0; left:0; width:100%; height:3px; z-index:120;
+  background:transparent;
+}
+.scroll-indicator span{
+  display:block; height:100%; width:0%;
+  background:linear-gradient(90deg, var(--purple-600), var(--green-500));
+  transition:width 0.1s linear;
+}
+
+/* ============================================================
+   NAVBAR
+   ============================================================ */
+.nav{
+  position:sticky; top:0; z-index:100;
+  background:color-mix(in srgb, var(--bg) 85%, transparent);
+  backdrop-filter:blur(14px) saturate(160%);
+  -webkit-backdrop-filter:blur(14px) saturate(160%);
+  border-bottom:1px solid transparent;
+  transition:border-color 0.3s var(--ease), box-shadow 0.3s var(--ease);
+}
+.nav.is-scrolled{
+  border-bottom-color:var(--border);
+  box-shadow:0 8px 24px -18px hsl(var(--shadow-color) / 0.6);
+}
+.nav__inner{
+  max-width:var(--container); margin:0 auto; padding:0.9rem clamp(1.25rem, 4vw, 2.5rem);
+  display:flex; align-items:center; justify-content:space-between;
+}
+.nav__brand{
+  display:flex; align-items:center; gap:0.6rem;
+  font-family:var(--font-display); font-weight:800; font-size:1.05rem;
+  text-decoration:none; color:var(--text);
+}
+.nav__brand-mark{
+  width:11px; height:11px; border-radius:3px;
+  background:linear-gradient(135deg, var(--purple-600), var(--green-500));
+  transform:rotate(45deg);
+}
+.nav__links{display:flex; gap:2rem;}
+.nav__links a{
+  text-decoration:none; font-weight:500; font-size:0.95rem; color:var(--text-soft);
+  position:relative; padding:0.3rem 0;
+  transition:color 0.2s var(--ease);
+}
+.nav__links a::after{
+  content:''; position:absolute; left:0; bottom:0; height:2px; width:0;
+  background:var(--green-500); transition:width 0.25s var(--ease);
+}
+.nav__links a:hover, .nav__links a:focus-visible{color:var(--text);}
+.nav__links a:hover::after, .nav__links a:focus-visible::after{width:100%;}
+.nav__toggle{
+  display:none; background:none; border:none; color:var(--text); cursor:pointer; padding:0.3rem;
+}
+
+@media (max-width:860px){
+  .nav__links{
+    position:fixed; inset:64px 0 0 0; height:calc(100vh - 64px);
+    flex-direction:column; align-items:flex-start; gap:0;
+    background:var(--bg); padding:1rem clamp(1.25rem, 4vw, 2.5rem);
+    transform:translateY(-12px); opacity:0; pointer-events:none;
+    transition:opacity 0.25s var(--ease), transform 0.25s var(--ease);
+  }
+  .nav__links.is-open{opacity:1; transform:translateY(0); pointer-events:auto;}
+  .nav__links a{width:100%; padding:1rem 0; border-bottom:1px solid var(--border); font-size:1.1rem;}
+  .nav__toggle{display:block;}
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center;
+  padding:0.85rem 1.6rem; border-radius:999px; font-weight:700; font-size:0.95rem;
+  text-decoration:none; border:1.5px solid transparent; cursor:pointer;
+  transition:transform 0.2s var(--ease), box-shadow 0.2s var(--ease), background 0.2s var(--ease), border-color 0.2s var(--ease);
+  font-family:var(--font-body);
+}
+.btn--primary{
+  background:linear-gradient(135deg, var(--purple-600), var(--purple-500));
+  color:#fff;
+  box-shadow:0 12px 24px -10px rgba(109,40,217,0.55);
+}
+.btn--primary:hover{transform:translateY(-2px); box-shadow:0 16px 30px -10px rgba(109,40,217,0.6);}
+.btn--ghost{
+  background:transparent; color:var(--text); border-color:var(--border);
+}
+.btn--ghost:hover{border-color:var(--purple-500); color:var(--purple-600); transform:translateY(-2px);}
+.btn--onDark{box-shadow:0 12px 30px -8px rgba(0,0,0,0.45);}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero{
+  position:relative; overflow:hidden;
+  padding:clamp(3rem, 8vw, 6rem) 0 clamp(4rem, 9vw, 7rem);
+  background:
+    radial-gradient(1100px 620px at 78% -10%, color-mix(in srgb, var(--purple-500) 20%, transparent), transparent 60%),
+    var(--bg);
+}
+.hero__glow{
+  position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(600px 400px at 10% 90%, color-mix(in srgb, var(--green-500) 10%, transparent), transparent 70%);
+}
+.hero__inner{
+  position:relative; max-width:var(--container); margin:0 auto;
+  padding:0 clamp(1.25rem, 4vw, 2.5rem);
+  display:grid; grid-template-columns:1.05fr 0.95fr; gap:clamp(2rem, 6vw, 4rem);
+  align-items:center;
+}
+.hero__kicker{
+  font-size:0.9rem; font-weight:600; color:var(--purple-600); margin-bottom:1rem;
+  letter-spacing:0.01em;
+}
+:root:not([data-theme="light"]) .hero__kicker{ @media (prefers-color-scheme: dark){ color:#C4A9F5; } }
+[data-theme="dark"] .hero__kicker{color:#C4A9F5;}
+.hero__title{
+  font-size:clamp(3rem, 9vw, 6rem); font-weight:800; line-height:0.95;
+  background:linear-gradient(135deg, var(--purple-700), var(--purple-500) 55%, var(--green-500));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  margin-bottom:1.1rem;
+}
+.hero__subtitle{
+  font-family:var(--font-display); font-weight:700; font-size:clamp(1.2rem, 2.4vw, 1.6rem);
+  color:var(--text); margin-bottom:1rem; line-height:1.35; max-width:34ch;
+}
+.hero__lead{
+  color:var(--text-soft); font-size:1.05rem; max-width:46ch; margin-bottom:2rem;
+}
+.hero__actions{display:flex; flex-wrap:wrap; gap:1rem;}
+
+.hero__visual{position:relative; min-height:420px;}
+.hero__ring{
+  position:absolute; top:50%; left:50%; width:340px; height:340px;
+  transform:translate(-50%,-50%);
+  border:1.5px dashed color-mix(in srgb, var(--purple-500) 30%, transparent);
+  border-radius:50%;
+  animation:spin 40s linear infinite;
+}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg);}}
+
+.float-card{
+  position:absolute; display:flex; align-items:center; gap:0.7rem;
+  background:color-mix(in srgb, var(--surface) 78%, transparent);
+  backdrop-filter:blur(16px) saturate(160%); -webkit-backdrop-filter:blur(16px) saturate(160%);
+  border:1px solid color-mix(in srgb, var(--border) 80%, transparent);
+  border-radius:var(--radius-md);
+  padding:0.85rem 1.1rem;
+  box-shadow:0 20px 40px -20px hsl(var(--shadow-color) / 0.55);
+  animation:float 7s ease-in-out infinite;
+}
+.float-card svg{color:var(--purple-600); flex-shrink:0;}
+.float-card__label{display:block; font-size:0.72rem; color:var(--text-soft); font-weight:500;}
+.float-card__label--tight{margin-top:0.4rem;}
+.float-card__value{display:block; font-weight:700; font-size:0.95rem; font-variant-numeric:tabular-nums;}
+.float-card__value--muted{color:var(--text-soft); font-weight:600; font-size:0.85rem;}
+
+.float-card--wallet{top:6%; left:2%; animation-delay:0s;}
+.float-card--bill{top:2%; right:4%; animation-delay:1.4s;}
+.float-card--chart{bottom:20%; left:8%; animation-delay:0.7s; flex-direction:column; align-items:flex-start;}
+.float-card--calendar{bottom:4%; right:8%; animation-delay:2.1s;}
+.float-card--chart svg{color:var(--green-600);}
+.float-card--calendar svg{color:var(--green-600);}
+
+@keyframes float{
+  0%,100%{transform:translateY(0);}
+  50%{transform:translateY(-12px);}
+}
+
+.mini-chart{display:flex; align-items:flex-end; gap:5px; height:44px;}
+.mini-chart span{
+  width:7px; border-radius:3px 3px 0 0; height:var(--h);
+  background:linear-gradient(180deg, var(--green-500), var(--purple-500));
+}
+
+.hero__scroll-cue{
+  position:absolute; left:50%; bottom:1.5rem; transform:translateX(-50%);
+  width:38px; height:38px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  border:1.5px solid var(--border); color:var(--text-soft);
+  animation:bob 2.2s ease-in-out infinite;
+  text-decoration:none;
+}
+@keyframes bob{0%,100%{transform:translate(-50%,0);}50%{transform:translate(-50%,6px);}}
+
+@media (max-width:900px){
+  .hero__inner{grid-template-columns:1fr;}
+  .hero__visual{min-height:340px; order:-1;}
+  .float-card{padding:0.65rem 0.85rem;}
+  .hero__lead{max-width:none;}
+}
+
+/* ============================================================
+   SECTIONS (shared)
+   ============================================================ */
+.section{padding:clamp(4rem, 9vw, 7rem) 0;}
+.section--tint{background:var(--bg-alt);}
+.section--dark{
+  background:linear-gradient(165deg, var(--purple-900), #1E0F42 60%, #150A30);
+  color:#fff;
+}
+.section__head{max-width:760px; margin-bottom:clamp(2.5rem, 5vw, 3.5rem);}
+.section__head h2{font-size:clamp(2rem, 4vw, 2.85rem); font-weight:800; line-height:1.12; margin-bottom:1rem;}
+.section__intro{color:var(--text-soft); font-size:1.08rem; max-width:60ch;}
+.section__head--onDark h2{color:#fff;}
+.section__intro--onDark{color:#C9BEE0;}
+
+/* reveal-on-scroll */
+.reveal{opacity:0; transform:translateY(22px); transition:opacity 0.7s var(--ease), transform 0.7s var(--ease);}
+.reveal.is-visible{opacity:1; transform:translateY(0);}
+.reveal--delay{transition-delay:0.15s;}
+@media (prefers-reduced-motion: reduce){.reveal{opacity:1; transform:none;}}
+
+/* ============================================================
+   SEÇÃO 01 — comparativo + timeline
+   ============================================================ */
+.compare-grid{
+  display:grid; grid-template-columns:1fr auto 1fr; gap:1.5rem; align-items:stretch;
+  margin-bottom:3rem;
+}
+.compare-card{
+  border-radius:var(--radius-lg); padding:2rem; border:1px solid var(--border);
+  background:var(--surface);
+}
+.compare-card--purple{border-top:3px solid var(--purple-600);}
+.compare-card--green{border-top:3px solid var(--green-500);}
+.compare-card__eyebrow{
+  display:inline-block; font-family:var(--font-display); font-weight:800; font-size:1.15rem; margin-bottom:0.8rem;
+}
+.compare-card--purple .compare-card__eyebrow{color:var(--purple-600);}
+.compare-card--green .compare-card__eyebrow{color:var(--green-600);}
+.compare-card p{color:var(--text-soft);}
+.compare-card__divider{
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-display); font-weight:800; font-size:1.5rem; color:var(--text-soft);
+}
+@media (max-width:760px){
+  .compare-grid{grid-template-columns:1fr;}
+  .compare-card__divider{padding:0.25rem 0;}
+}
+
+.timeline-h{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.75rem;}
+.timeline-h__step{display:flex; flex-direction:column; align-items:center; gap:0.6rem; min-width:100px;}
+.timeline-h__dot{width:14px; height:14px; border-radius:50%; background:linear-gradient(135deg, var(--purple-600), var(--green-500));}
+.timeline-h__label{font-weight:600; font-size:0.92rem; text-align:center;}
+.timeline-h__line{flex:1; min-width:24px; height:2px; background:var(--border);}
+
+/* ============================================================
+   SEÇÃO 02 — fatores
+   ============================================================ */
+.factor-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:1.25rem;}
+.factor-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-md);
+  padding:1.75rem; transition:transform 0.25s var(--ease), box-shadow 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.factor-card:hover{transform:translateY(-4px); box-shadow:0 20px 34px -22px hsl(var(--shadow-color)/0.5); border-color:color-mix(in srgb, var(--purple-500) 40%, var(--border));}
+.factor-card__icon{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:44px; height:44px; border-radius:12px; margin-bottom:1rem;
+  background:var(--purple-100); color:var(--purple-700);
+}
+:root[data-theme="dark"] .factor-card__icon{background:color-mix(in srgb, var(--purple-500) 25%, transparent); color:#D9C6FA;}
+.factor-card h3{font-size:1.05rem; margin-bottom:0.5rem;}
+.factor-card p{color:var(--text-soft); font-size:0.95rem;}
+
+/* ============================================================
+   SEÇÃO 03 — domino
+   ============================================================ */
+.domino{position:relative; max-width:520px; margin:0 auto; padding-left:2.75rem;}
+.domino__line{position:absolute; left:11px; top:6px; bottom:6px; width:2px; background:rgba(255,255,255,0.14); overflow:hidden;}
+.domino__line span{display:block; width:100%; height:0%; background:linear-gradient(180deg, var(--green-500), var(--purple-500)); transition:height 1.4s var(--ease);}
+.domino__step{position:relative; padding:1.1rem 0; opacity:0.35; transform:translateX(-8px); transition:opacity 0.5s var(--ease), transform 0.5s var(--ease);}
+.domino__step.is-active{opacity:1; transform:translateX(0);}
+.domino__index{
+  position:absolute; left:-2.75rem; top:1.1rem; width:24px; height:24px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center; font-size:0.78rem; font-weight:700;
+  background:rgba(255,255,255,0.08); color:#C9BEE0; transition:background 0.4s var(--ease), color 0.4s var(--ease);
+}
+.domino__step.is-active .domino__index{background:var(--green-500); color:#0C1F16;}
+.domino__text{font-family:var(--font-display); font-weight:700; font-size:1.15rem; color:#fff;}
+
+/* ============================================================
+   SEÇÃO 04 — impactos
+   ============================================================ */
+.impact-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1.5rem;}
+.impact-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg);
+  padding:2rem; transition:transform 0.25s var(--ease), box-shadow 0.25s var(--ease);
+}
+.impact-card:hover{transform:translateY(-4px); box-shadow:0 24px 40px -24px hsl(var(--shadow-color)/0.5);}
+.impact-card__icon{
+  display:inline-flex; align-items:center; justify-content:center;
+  width:52px; height:52px; border-radius:14px; margin-bottom:1.25rem;
+  background:linear-gradient(135deg, var(--purple-600), var(--green-500)); color:#fff;
+}
+.impact-card h3{font-size:1.15rem; margin-bottom:0.6rem;}
+.impact-card p{color:var(--text-soft);}
+
+/* ============================================================
+   SEÇÃO 05 — crédito
+   ============================================================ */
+.highlight{text-align:center; max-width:820px; margin:0 auto 3.5rem;}
+.highlight__quote{font-size:clamp(1.6rem, 3.4vw, 2.4rem); font-weight:800; line-height:1.3;}
+
+.flow-compare{display:grid; grid-template-columns:1fr 1fr; gap:1.75rem; margin-bottom:1.75rem;}
+.flow-compare__col{background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:2rem; text-align:center;}
+.flow-compare__tag{display:inline-block; padding:0.4rem 1rem; border-radius:999px; font-weight:700; font-size:0.85rem; margin-bottom:1.5rem;}
+.flow-compare__tag--green{background:var(--green-100); color:var(--green-600);}
+.flow-compare__tag--purple{background:var(--purple-100); color:var(--purple-700);}
+:root[data-theme="dark"] .flow-compare__tag--green{background:color-mix(in srgb, var(--green-500) 25%, transparent); color:#8CE9BE;}
+:root[data-theme="dark"] .flow-compare__tag--purple{background:color-mix(in srgb, var(--purple-500) 25%, transparent); color:#D9C6FA;}
+.flow-compare__chain{display:flex; flex-direction:column; align-items:center; gap:0.6rem; font-weight:600;}
+.flow-compare__chain svg{color:var(--text-soft);}
+.flow-compare__result{font-family:var(--font-display); font-weight:800; padding:0.6rem 1.1rem; border-radius:10px; margin-top:0.15rem;}
+.flow-compare__result--green{background:var(--green-100); color:var(--green-600);}
+.flow-compare__result--purple{background:var(--purple-100); color:var(--purple-700);}
+:root[data-theme="dark"] .flow-compare__result--green{background:color-mix(in srgb, var(--green-500) 22%, transparent); color:#8CE9BE;}
+:root[data-theme="dark"] .flow-compare__result--purple{background:color-mix(in srgb, var(--purple-500) 22%, transparent); color:#D9C6FA;}
+.flow-compare__note{text-align:center; color:var(--text-soft); max-width:60ch; margin:0 auto;}
+@media (max-width:720px){.flow-compare{grid-template-columns:1fr;}}
+
+/* ============================================================
+   SEÇÃO 06 — steps
+   ============================================================ */
+.steps{list-style:none; margin:0; padding:0; position:relative;}
+.steps::before{
+  content:''; position:absolute; left:23px; top:12px; bottom:12px; width:2px; background:var(--border);
+}
+.steps__item{position:relative; display:flex; gap:1.5rem; padding:1.4rem 0;}
+.steps__index{
+  flex-shrink:0; width:48px; height:48px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--font-display); font-weight:800; font-size:0.95rem;
+  background:var(--surface); border:2px solid var(--purple-500); color:var(--purple-600);
+  position:relative; z-index:1;
+}
+.steps__item h3{font-size:1.15rem; margin-bottom:0.35rem;}
+.steps__item p{color:var(--text-soft);}
+
+/* ============================================================
+   SEÇÃO 07 — checklist
+   ============================================================ */
+.checklist-panel{background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg); padding:clamp(1.75rem, 4vw, 2.5rem);}
+.checklist-progress{margin-bottom:2rem;}
+.checklist-progress__bar{width:100%; height:12px; border-radius:999px; background:var(--bg-alt); overflow:hidden; border:1px solid var(--border);}
+.checklist-progress__fill{height:100%; width:0%; border-radius:999px; background:linear-gradient(90deg, var(--purple-600), var(--green-500)); transition:width 0.5s var(--ease);}
+.checklist-progress__meta{display:flex; justify-content:space-between; margin-top:0.65rem; font-weight:600; font-size:0.92rem; color:var(--text-soft);}
+#checklistPercent{color:var(--text); font-variant-numeric:tabular-nums;}
+
+.checklist{list-style:none; margin:0; padding:0; display:grid; gap:0.15rem;}
+.checklist__item{border-bottom:1px solid var(--border);}
+.checklist__item:last-child{border-bottom:none;}
+.checklist__input{
+  position:absolute; opacity:0; width:1px; height:1px;
+}
+.checklist__item label{
+  display:flex; align-items:center; gap:0.9rem; padding:0.95rem 0.25rem; cursor:pointer; font-weight:500;
+}
+.checklist__item label::before{
+  content:''; flex-shrink:0; width:22px; height:22px; border-radius:7px; border:2px solid var(--border);
+  transition:background 0.2s var(--ease), border-color 0.2s var(--ease);
+  background-size:14px; background-repeat:no-repeat; background-position:center;
+}
+.checklist__input:checked + label::before{
+  border-color:var(--green-500); background-color:var(--green-500);
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='5 13 9.5 17.5 19 7'/%3E%3C/svg%3E");
+}
+.checklist__input:checked + label{color:var(--text-soft); text-decoration:line-through; text-decoration-color:var(--border);}
+.checklist__input:focus-visible + label::before{outline:2.5px solid var(--green-500); outline-offset:2px;}
+
+/* ============================================================
+   SEÇÃO 08 — simulador
+   ============================================================ */
+.simulator{
+  display:grid; grid-template-columns:1fr 1fr; gap:2rem;
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-lg);
+  padding:clamp(1.75rem, 4vw, 2.5rem);
+}
+.simulator__inputs{display:flex; flex-direction:column; gap:1.25rem;}
+.field label{display:block; font-weight:600; font-size:0.92rem; margin-bottom:0.5rem;}
+.field__input{
+  display:flex; align-items:center; gap:0.5rem; border:1.5px solid var(--border); border-radius:var(--radius-sm);
+  padding:0.15rem 0.9rem; transition:border-color 0.2s var(--ease);
+}
+.field__input:focus-within{border-color:var(--purple-500);}
+.field__input span{color:var(--text-soft); font-weight:600;}
+.field__input input{
+  border:none; outline:none; background:transparent; width:100%; padding:0.75rem 0;
+  font-size:1rem; color:var(--text); font-family:var(--font-body); font-variant-numeric:tabular-nums;
+}
+.simulator__result{display:flex; flex-direction:column; justify-content:center; gap:1.25rem; border-left:1px solid var(--border); padding-left:2rem;}
+.simulator__numbers{display:flex; flex-direction:column; gap:1rem;}
+.simulator__number-label{display:block; font-size:0.85rem; color:var(--text-soft); margin-bottom:0.2rem;}
+.simulator__number{display:block; font-family:var(--font-display); font-weight:800; font-size:1.6rem; font-variant-numeric:tabular-nums;}
+.simulator__bar{height:12px; border-radius:999px; background:var(--bg-alt); overflow:hidden; border:1px solid var(--border);}
+.simulator__bar-fill{height:100%; width:0%; border-radius:999px; background:linear-gradient(90deg, var(--green-500), var(--purple-600)); transition:width 0.4s var(--ease), background 0.4s var(--ease);}
+.simulator__note{color:var(--text-soft); font-size:0.9rem;}
+@media (max-width:760px){
+  .simulator{grid-template-columns:1fr;}
+  .simulator__result{border-left:none; border-top:1px solid var(--border); padding-left:0; padding-top:1.5rem;}
+}
+
+/* ============================================================
+   SEÇÃO 09 — mitos
+   ============================================================ */
+.myth-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:1.5rem;}
+.myth-card{
+  position:relative; min-height:190px; text-align:left; cursor:pointer;
+  border:1px solid var(--border); border-radius:var(--radius-lg); background:var(--surface);
+  padding:0; font-family:var(--font-body); perspective:1200px;
+}
+.myth-card__front, .myth-card__back{
+  position:absolute; inset:0; padding:1.75rem; border-radius:var(--radius-lg);
+  display:flex; flex-direction:column; justify-content:space-between;
+  backface-visibility:hidden; transition:transform 0.55s var(--ease);
+}
+.myth-card__front{background:var(--surface); transform:rotateY(0deg);}
+.myth-card__quote{font-family:var(--font-display); font-weight:700; font-size:1.05rem; line-height:1.4;}
+.myth-card__cta{font-size:0.85rem; font-weight:700; color:var(--purple-600);}
+.myth-card__back{
+  background:linear-gradient(135deg, var(--purple-700), var(--purple-500));
+  color:#fff; transform:rotateY(180deg); font-weight:600; font-size:1rem; align-items:flex-start; justify-content:center;
+}
+.myth-card.is-flipped .myth-card__front{transform:rotateY(-180deg);}
+.myth-card.is-flipped .myth-card__back{transform:rotateY(0deg);}
+.myth-card:hover{box-shadow:0 20px 34px -22px hsl(var(--shadow-color)/0.5);}
+
+/* ============================================================
+   SEÇÃO 10 — recap
+   ============================================================ */
+.recap-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:1.25rem;}
+.recap-card{
+  background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-md);
+  padding:1.75rem; text-align:left;
+}
+.recap-card__index{
+  display:block; font-family:var(--font-display); font-weight:800; font-size:1.3rem;
+  background:linear-gradient(135deg, var(--purple-600), var(--green-500));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  margin-bottom:0.75rem;
+}
+.recap-card p{font-weight:600; font-size:1.02rem;}
+
+/* ============================================================
+   CTA FINAL
+   ============================================================ */
+.final-cta{
+  position:relative; overflow:hidden; text-align:center;
+  padding:clamp(4.5rem, 10vw, 7rem) 0;
+  background:linear-gradient(160deg, var(--purple-900), #1c0f3e 55%, #120826);
+  color:#fff;
+}
+.final-cta__glow{
+  position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(700px 400px at 50% 0%, rgba(16,185,129,0.16), transparent 65%);
+}
+.final-cta h2{font-size:clamp(2rem, 4.5vw, 3rem); font-weight:800; margin-bottom:1.25rem; max-width:26ch; margin-inline:auto;}
+.final-cta p{color:#C9BEE0; max-width:56ch; margin:0 auto 2.25rem; font-size:1.05rem;}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.footer{padding:2.5rem 0; background:var(--bg);}
+.footer__inner{display:flex; flex-wrap:wrap; gap:0.5rem 1.5rem; justify-content:center; color:var(--text-soft); font-size:0.88rem;}
+
+/* ============================================================
+   BACK TO TOP
+   ============================================================ */
+.back-to-top{
+  position:fixed; right:1.5rem; bottom:1.5rem; z-index:90;
+  width:46px; height:46px; border-radius:50%; border:none; cursor:pointer;
+  background:linear-gradient(135deg, var(--purple-600), var(--purple-500)); color:#fff;
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 14px 28px -12px rgba(109,40,217,0.6);
+  opacity:0; transform:translateY(12px); pointer-events:none;
+  transition:opacity 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.back-to-top.is-visible{opacity:1; transform:translateY(0); pointer-events:auto;}
+
+@media (max-width:480px){
+  .hero__actions{flex-direction:column; align-items:stretch;}
+  .hero__actions .btn{width:100%;}
+}
+</style>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Nav: scroll shadow + mobile toggle ---------- */
+  var nav = document.getElementById('siteNav');
+  var navToggle = document.getElementById('navToggle');
+  var navLinks = document.getElementById('navLinks');
+
+  function onScroll(){
+    if(window.scrollY > 8){ nav.classList.add('is-scrolled'); }
+    else{ nav.classList.remove('is-scrolled'); }
+    updateScrollIndicator();
+    updateBackToTop();
+  }
+
+  navToggle.addEventListener('click', function(){
+    var isOpen = navLinks.classList.toggle('is-open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    navToggle.innerHTML = isOpen
+      ? '<svg width="24" height="24"><use href="#ic-close"></use></svg>'
+      : '<svg width="24" height="24"><use href="#ic-menu"></use></svg>';
+  });
+
+  navLinks.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      navLinks.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      navToggle.innerHTML = '<svg width="24" height="24"><use href="#ic-menu"></use></svg>';
+    });
+  });
+
+  /* ---------- Scroll progress indicator ---------- */
+  var indicatorFill = document.getElementById('scrollIndicatorFill');
+  function updateScrollIndicator(){
+    var scrollTop = window.scrollY;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+    indicatorFill.style.width = pct + '%';
+  }
+
+  /* ---------- Back to top ---------- */
+  var backToTop = document.getElementById('backToTop');
+  function updateBackToTop(){
+    if(window.scrollY > 600){ backToTop.classList.add('is-visible'); }
+    else{ backToTop.classList.remove('is-visible'); }
+  }
+  backToTop.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  /* ---------- Reveal on scroll ---------- */
+  var revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var revealObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.15, rootMargin:'0px 0px -60px 0px'});
+    revealEls.forEach(function(el){ revealObserver.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  /* ---------- Domino chain progressive reveal ---------- */
+  var dominoSteps = document.querySelectorAll('[data-domino]');
+  var dominoLineFill = document.getElementById('dominoLineFill');
+  var dominoChain = document.getElementById('dominoChain');
+  var dominoActivated = false;
+
+  function activateDomino(){
+    if(dominoActivated) return;
+    dominoActivated = true;
+    dominoSteps.forEach(function(step, i){
+      setTimeout(function(){
+        step.classList.add('is-active');
+        var pct = ((i+1) / dominoSteps.length) * 100;
+        dominoLineFill.style.height = pct + '%';
+      }, i * 220);
+    });
+  }
+
+  if('IntersectionObserver' in window){
+    var dominoObserver = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          activateDomino();
+          dominoObserver.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.35});
+    if(dominoChain) dominoObserver.observe(dominoChain);
+  } else {
+    activateDomino();
+  }
+
+  /* ---------- Checklist ---------- */
+  var checklistInputs = document.querySelectorAll('.checklist__input');
+  var checklistFill = document.getElementById('checklistFill');
+  var checklistPercent = document.getElementById('checklistPercent');
+  var checklistLabel = document.getElementById('checklistLabel');
+  var checklistProgressbar = document.getElementById('checklistProgressbar');
+
+  var checklistLabels = [
+    {max:0, text:'Vamos começar'},
+    {max:24, text:'Primeiros passos'},
+    {max:49, text:'Em construção'},
+    {max:74, text:'Boa organização'},
+    {max:99, text:'Organização avançada'},
+    {max:100, text:'Checklist completo'}
+  ];
+
+  function updateChecklist(){
+    var checked = 0;
+    checklistInputs.forEach(function(input){ if(input.checked) checked++; });
+    var pct = Math.round((checked / checklistInputs.length) * 100);
+    checklistFill.style.width = pct + '%';
+    checklistPercent.textContent = pct + '%';
+    checklistProgressbar.setAttribute('aria-valuenow', pct);
+
+    var label = checklistLabels[0].text;
+    for(var i=0;i<checklistLabels.length;i++){
+      if(pct <= checklistLabels[i].max){ label = checklistLabels[i].text; break; }
+    }
+    if(pct === 0) label = 'Vamos começar';
+    checklistLabel.textContent = label;
+  }
+  checklistInputs.forEach(function(input){ input.addEventListener('change', updateChecklist); });
+  updateChecklist();
+
+  /* ---------- Simulador ---------- */
+  var simRenda = document.getElementById('simRenda');
+  var simDespesas = document.getElementById('simDespesas');
+  var simParcelas = document.getElementById('simParcelas');
+  var simRestante = document.getElementById('simRestante');
+  var simPercentual = document.getElementById('simPercentual');
+  var simBarFill = document.getElementById('simBarFill');
+
+  var brl = new Intl.NumberFormat('pt-BR', {style:'currency', currency:'BRL'});
+
+  function parseVal(el){
+    var v = parseFloat(el.value.replace(',', '.'));
+    return isNaN(v) || v < 0 ? 0 : v;
+  }
+
+  function updateSimulator(){
+    var renda = parseVal(simRenda);
+    var despesas = parseVal(simDespesas);
+    var parcelas = parseVal(simParcelas);
+
+    var restante = renda - despesas - parcelas;
+    var pctParcelas = renda > 0 ? (parcelas / renda) * 100 : 0;
+    pctParcelas = Math.max(0, Math.min(pctParcelas, 999));
+
+    simRestante.textContent = brl.format(restante);
+    simRestante.style.color = restante < 0 ? '#DC2626' : '';
+    simPercentual.textContent = Math.round(pctParcelas) + '%';
+
+    var barWidth = Math.min(pctParcelas, 100);
+    simBarFill.style.width = barWidth + '%';
+  }
+
+  [simRenda, simDespesas, simParcelas].forEach(function(el){
+    el.addEventListener('input', updateSimulator);
+  });
+  updateSimulator();
+
+  /* ---------- Mitos e verdades ---------- */
+  var mythCards = document.querySelectorAll('[data-myth]');
+  mythCards.forEach(function(card){
+    card.setAttribute('aria-expanded', 'false');
+    card.addEventListener('click', function(){
+      var isFlipped = card.classList.toggle('is-flipped');
+      card.setAttribute('aria-expanded', isFlipped ? 'true' : 'false');
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
